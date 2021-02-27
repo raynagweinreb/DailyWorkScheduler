@@ -1,8 +1,9 @@
+// Enters day at the top of the page 
 var todaysDate = moment();
 $("#currentDay").text(todaysDate.format("MMMM Do YYYY, h:mm: a"))
-
+//Gets hour data to color the correct hours 
 var thisHour = parseInt(moment().format('HH'));
-
+// creates variabel for every hour to save to local storage and append 
 var hour9am = $("#9am");
 var hour10am = $("#10am");
 var hour11am = $("#11am");

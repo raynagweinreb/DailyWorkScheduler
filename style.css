@@ -12,7 +12,10 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+textarea:hover{
+  opacity: 0.5;
 
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
